@@ -2,6 +2,9 @@
 
 A [Testcontainers](https://www.testcontainers.org/) implementation for Mailcatcher.
 
+[![CI build](https://github.com/skydrinker-tox/testcontainers-mailcatcher/actions/workflows/maven.yml/badge.svg)](https://github.com/skydrinker-tox/testcontainers-mailcatcher/actions/workflows/maven.yml)
+![](https://img.shields.io/github/v/release/skydrinker-tox/testcontainers-mailcatcher?label=Release)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.skydrinker-tox/testcontainers-mailcatcher.svg?label=Maven%20Central)](https://mvnrepository.com/search?q=%2Bartifact%2Bio.github.skydrinker-tox%2Btestcontainers-mailcatcher)
 ![](https://img.shields.io/github/license/skydrinker-tox/testcontainers-mailcatcher)
 ![](https://img.shields.io/badge/dockage/mailcatcher-0.9.0-blue)
 
