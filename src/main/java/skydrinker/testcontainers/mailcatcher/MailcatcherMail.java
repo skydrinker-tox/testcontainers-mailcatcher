@@ -39,5 +39,26 @@ public class MailcatcherMail {
     public String getEmailSource() {
         return bodies.getOrDefault(EMAIL_FORMAT_SOURCE, null);
     }
+    public int getId() {
+        return id;
+    }
+    public String getSender() {
+        return sender;
+    }
+    public List<String> getRecipients() {
+        return recipients;
+    }
+    public String getSubject() {
+        return subject;
+    }
+    public String getSize() {
+        return size;
+    }
+    public String getCreatedAt() {
+        return created_at;
+    }
+    public List<String> getFormats() {
+        return formats;
+    }
 }
 
