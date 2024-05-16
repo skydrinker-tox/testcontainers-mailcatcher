@@ -1,8 +1,12 @@
 package skydrinker.testcontainers.mailcatcher;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.HashMap;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class MailcatcherMail {
     private static final String EMAIL_FORMAT_PLAIN = "plain";
     private static final String EMAIL_FORMAT_HTML = "html";
@@ -12,7 +16,8 @@ public class MailcatcherMail {
     List<String> recipients;
     String subject;
     String size;
-    String created_at;
+    @JsonProperty("created_at")
+    String createdAt;
     List<String> formats;
     HashMap<String, String> bodies = new HashMap<>();
 
@@ -55,7 +60,7 @@ public class MailcatcherMail {
         return size;
     }
     public String getCreatedAt() {
-        return created_at;
+        return createdAt;
     }
     public List<String> getFormats() {
         return formats;
