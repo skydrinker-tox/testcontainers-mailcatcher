@@ -4,7 +4,7 @@
 
     <groupId>io.github.skydrinker-tox</groupId>
     <artifactId>testcontainers-mailcatcher</artifactId>
-    <version>0.9.3</version>
+    <version>0.9.4-SNAPSHOT</version>
 
     <name>Testcontainers MailCatcher</name>
     <description>A Testcontainers implementation for MailCatcher.</description>
