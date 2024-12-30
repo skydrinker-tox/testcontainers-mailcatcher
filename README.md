@@ -81,7 +81,7 @@ Simply put the dependency coordinates to your `pom.xml` (or something similar, i
 
 ```xml
 <dependency>
-  <groupId>com.github.skydrinker-tox</groupId>
+  <groupId>io.github.skydrinker-tox</groupId>
   <artifactId>testcontainers-mailcatcher</artifactId>
   <version>VERSION</version>
   <scope>test</scope>
