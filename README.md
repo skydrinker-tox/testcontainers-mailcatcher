@@ -76,12 +76,12 @@ public class MyCustomMailCatcherContainer extends ExtendableMailCatcherContainer
 
 ## Setup
 
-The release versions of this project are available at [Maven Central](https://search.maven.org/artifact/com.github.skydrinker-tox/testcontainers-mailcatcher).
+The release versions of this project are available at [Maven Central](https://central.sonatype.com/artifact/io.github.skydrinker-tox/testcontainers-mailcatcher).
 Simply put the dependency coordinates to your `pom.xml` (or something similar, if you use e.g. Gradle or something else):
 
 ```xml
 <dependency>
-  <groupId>com.github.skydrinker-tox</groupId>
+  <groupId>io.github.skydrinker-tox</groupId>
   <artifactId>testcontainers-mailcatcher</artifactId>
   <version>VERSION</version>
   <scope>test</scope>
